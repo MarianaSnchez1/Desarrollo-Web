@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!--Ver primero lo de las tablas para esto-->
+        <style> 
+            table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1> Propiedades del a</h1>
+        <p>posibilidad de abrirlo desde otra pestaña</p> <!-- target= -->
+        <a target="_blank" href="https://www.w3schools.com/tags/tag_fieldset.asp">link a algo externo</a>
+        
+        <br><br><hr><br> <!--Separación choneta-->
+        
+        <h1>Ejemplo de Select</h1>
+        <p>Hace un cuadradito para que seleccione cualquier opción, y esta queda guardada a través de su value</p>
+        <form action="/action_page.php" method="get">
+            <select name="mascotas" id="mascotas">
+                    <option value="ornitorrinco">Ornitorrinco</option>
+                    <option value="rata">Rata</option>
+                    <option selected value="none"></option>
+                    <option value="paloma">Paloma</option>
+            </select>
+        </form> 
+        
+        <br><br><hr><br> <!--Separación choneta-->
+
+        <h1>Fieldset</h1>
+        <p>Agrupación de elementos relacionados en un formulario</p>
+        <form >
+            <fieldset>
+              <legend>Info. general:</legend>
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br><br>
+              <label for="birthday">Birthday:</label>
+              <input type="date" id="birthday" name="birthday"><br><br>
+              <input type="submit" value="Submit">
+            </fieldset>
+          </form> 
+
+        <br><br><hr><br> <!--Separación choneta-->
+
+        <h1>Enlaces</h1>
+        <p>REVISAR</p>
+        
+        <br><br><hr><br> <!--Separación choneta-->
+
+        <h1>Listas</h1>
+        <p>
+            no ordenada(ul)
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ul>
+            ordenada(ol)
+            <ol>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ol>
+            descripción de un término de la lista(li), se escribe lo que va a aparecer en la lista 
+        </p>
+        <p>
+            dl descriptiva 
+            <dl>
+                <dt>Termino de la lista</dt>
+                <dd>Descripción del término</dd>
+                <dt>A</dt>
+                <dd>a.1</dd>
+              </dl> 
+            dt término de la lista
+            dd descripción del término
+        </p>
+
+        <br><br><hr><br> <!--Separación choneta-->
+
+        <h1>Imágenes</h1>
+        <p>Para poner una imágen</p>
+        <img src="foto.jpeg" alt="Descripción de la foto cuando no se puede visualizar">
+
+        <br><br><hr><br> <!--Separación choneta-->
+
+        <h1>Tablas</h1>
+        <p>ADELANTARSEEEE AHHH</p>
+        <table>
+            <tr>
+              <th>Month</th>
+              <th>Savings</th>
+            </tr>
+            <tr>
+              <td>January</td>
+              <td>$100</td>
+            </tr>
+            <tr>
+              <td>February</td>
+              <td>$80</td>
+            </tr>
+        </table>
+
+        <br><br><hr><br> <!--Separación choneta-->
+
+        <h1>Atributos globales</h1>
+        <p>Ya no estoy entendiendo nada :c</p>
+        <p>cosas como id y demás, clase es un id en general</p>
+    </body>
+</html> 
