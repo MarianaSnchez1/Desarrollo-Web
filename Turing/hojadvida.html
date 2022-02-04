@@ -5,11 +5,11 @@
     </head>
     <body>
         <br><br>
-        <div class="icono" style="text-align:center;">
+        <div class="icono" style="text-align:center;"> <!--foto-->
             <img src="fotodeperfil.jpeg"> 
         </div>
 
-        <div> <!-- No se que hace el div-->
+        <div style="text-align:left;">
             <form method="get">
                 <h4>Tipo de documento</h4> <!--tipo de documento-->
                 <select name="Tipo de documento" id="d.i">
@@ -18,13 +18,24 @@
                         <option value="D.I">Documento de Identidad</option>
                         <option value="otro">Otro</option>
                 </select>
+
+                <h4>Nombre completo</h4> <!--nombre-->
+                <input type="text">
+
+                <h4>Salario actual</h4> <!--salario-->
+                <input type="range">
+
+                <h4>Anexar hoja de vida (PDF)</h4> <!--hoja de vida-->
+                <input type="file">
+
             </form> 
-            
+        </div>
 
-
-
-
+        <div style="text-align:right;">
             <form method="get">
+                <h4>Correo</h4> <!--correo-->
+                <input type="email">
+
                 <h4>Vacante a la que quiere aplicar</h4> <!--Vacante-->
                 <select name="Tipo de documento" id="d.i">
                         <option selected value="ventas">Ventas</option>
@@ -32,15 +43,25 @@
                         <option value=""></option>
                         <option value="otro">Otro</option>
                 </select>
+
+                <h4>Fecha en la que puede entrar</h4> <!--Fecha-->
+                <input type="date">
+
+                <h4>Desea recibir correos de otras vacantes</h4>
+                <!-- boton slide-->
             </form> 
-
-
-            <form method="get">
-                <input type="button"> Aplicar vacante <!--Boton del final-->
-            </form>
-
-            
-
         </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div style="text-align:center;">
+            <hr>
+            <form method="get">
+                <h4>Descríbenos tu experiencia</h4>
+                <textarea rows="4" cols="50">
+                </textarea>
+
+            </form>
+            <button type="button" onclick="alert('Aplicado')">Aplicar vacante</button> <!--Boton del final-->
+        </div>     
+       
     </body>
 </html>
