@@ -1,0 +1,24 @@
+/*__________Divs de todo__________*/ 
+div{
+    font-style: "Courier New";
+}
+ div.menu_arriba {
+    background-color: rgb(221,22,73); /*color de la barra principal*/
+    color: white; 
+}
+
+div.panopto {
+    float: right;
+    background-color: black;
+    color:white;
+}
+
+/*__________Generalidades chonetas__________*/
+a {
+    text-decoration:none;
+    color: white;
+} /*para que no aparezca la linea de abajo en los links*/
+
+img{
+    vertical-align: middle;
+}
